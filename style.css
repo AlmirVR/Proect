@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    width: 100%;
+}
+.top{
+    width: 100%;
+    border-bottom: solid #A1A6B4 1px;
+}
+.top_content {
+    display: flex;
+    justify-content: space-between;
+    width: 1161px;
+    margin: auto;
+    background-color: white;
+}
+.container_logo_top {
+    margin: 20px 0 10px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+}
+.container_link {
+    margin-right: 15px;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+a {
+    font-weight: bold;
+    font-family: "Anonymous pro", sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.midle {
+    background-color: #F5F5F5;
+    max-width: 100%;
+    padding: 20px 0 60px 0;
+}
+.midle_container {
+    margin: auto;
+    width: 1161px;
+}
+.container_sneakers {
+    margin: 24px 0 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1161px;
+}
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.container_text {
+    margin: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+    width: 371px;
+    background-color: white;
+    border-radius: 0 0 12px 12px;
+}
+.text {
+    margin: 0;
+    height: 100px;
+    width: 323px;
+}
+h1 {
+    font-size: 48px;
+    font-family: monospace;
+    margin: 0;
+}
+h2 , h3 {
+    
+    font-family: "Anonymous pro", sans-serif;
+    margin: 10px 0 0 0;
+}
+h2 {
+    font-weight: 700;
+    font-size: 26px;
+}
+h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+.title_container {
+    margin: 0 0 30px 0;
+}
+.bottom {
+    width: 100%;
+    background-color: #121723;
+}
+.content_bottom {
+    width: 1161px;
+    margin: auto;
+}
+.container_bottom {
+    border-bottom: solid #E6E8EC 1px;
+    display: flex;
+    justify-content: space-between;
+}
+.container_logo_bottom {
+    margin-top: 30px;
+}
+.container_link_bottom {
+    margin-right: 15px;
+}
+.link_bottom {
+    color: white;
+}
+.container_name_bottom {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+h4 {
+    margin: 0;
+    color: #A1A6B4;
+}
+span {
+    margin-right: 3px;
+}
+
+
+
+
