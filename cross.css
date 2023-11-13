@@ -126,7 +126,7 @@ h6 {
 span {
     margin-right: 3px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .top {
         border-bottom: solid #A1A6B4 2px;
     }
