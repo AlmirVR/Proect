@@ -71,12 +71,10 @@ h3 {
 }
 .sneaker_text {
     width: 506px;
-    height: 840px;
 
 }
 .sneaker_parameters {
     width: 506px;
-    height: 258px;
 }
 h4 {
     font-size: 30px;
@@ -94,22 +92,6 @@ h5 {
     display: flex;
     justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bottom {
     width: 100%;
     background-color: #121723;
@@ -143,4 +125,72 @@ h6 {
 }
 span {
     margin-right: 3px;
+}
+@media screen and (max-width: 400px) {
+    .top {
+        border-bottom: solid #A1A6B4 2px;
+    }
+    .top_content {
+        width: 343px;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        margin-top: 0;
+    }
+    ul {
+        padding: 0;
+    }
+    .midle_content {
+        width: 343px;
+    }
+    .content {
+        width: 343px;
+        padding: 32px 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 12px;
+    }
+    .container_img {
+        width: 295px;
+    }
+    .name_sneaker {
+        width: 295px;
+    }
+    .crossBig {
+        width: 295px;
+        height: 172px;
+    }
+    .container_text {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 0 0 15px 0;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    h3 {
+        font-size: 16px;
+        margin: 0 0 15px 0;
+    }
+    .sneaker_text {
+        width: 295px;
+    }
+    .sneaker_parameters {
+        width: 295px;
+    }
+    .content_bottom {
+        width: 343px;
+    }
+    .container_bottom {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }

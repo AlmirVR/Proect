@@ -30,8 +30,8 @@ ul {
     list-style: none;
 }
 a {
-    font-weight: bold;
     font-family: "Anonymous pro", sans-serif;
+    font-weight: bold;
     color: black;
     text-decoration: none;
 }
@@ -51,9 +51,12 @@ a {
     width: 1161px;
 }
 .container {
+    width: 372px;
+    border-radius: 12px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
+    transition: all 400ms ease-in-out;
 }
 .container_text {
     margin: 0;
@@ -69,15 +72,17 @@ a {
     margin: 0;
     height: 100px;
     width: 323px;
+    font-family: "Anonymous pro", sans-serif;
+    font-weight: bold;
 }
 h1 {
     font-size: 48px;
     font-family: monospace;
     margin: 0;
+    font-family: "Anonymous pro", sans-serif;
+    font-weight: bold;
 }
 h2 , h3 {
-    
-    font-family: "Anonymous pro", sans-serif;
     margin: 10px 0 0 0;
 }
 h2 {
@@ -130,6 +135,70 @@ span {
     height: 254px;
     border-radius: 12px 12px 0 0;
 }
+.container:hover {
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.25);
+    transform: translateY(-10px);
+}
 
+@media screen and (max-width: 500px) {
+    .top {
+        border-bottom: solid #A1A6B4 2px;
+    }
+    .top_content {
+        flex-direction: column;
+        align-items: center;
+        width: 343px;
+    }
+    .midle_container {
+        width: 343px;
+    }
+    .content_bottom {
+        width: 343px;
+    }
+    .container_bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .container_sneakers {
+        width: 343px;
+        flex-direction: column;
+        margin: 0;
+    }
+    .container {
+        width: 343px;
+        margin: 24px 0 0;
+    }
+    #img_sneaker {
+        width: 343px;
+    }
+    .container_text {
+        width: 343px;
+    }
+    .logo_top {
+        width: 215px;
+        height: 64px;
+    }
+    .logo_bottom {
+        width: 300px;
+        height: 22px;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+    .title_container {
+        margin: 0 0 15px 0;
+    }
+    nav {
+        margin: 0 0 20px 0;
+    }
+}
 
 
