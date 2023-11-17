@@ -10,6 +10,7 @@ body {
 .top_content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1161px;
     margin: auto;
     background-color: white;
@@ -125,6 +126,10 @@ h6 {
 }
 span {
     margin-right: 3px;
+}
+.container_img img {
+    width: 1044px;
+    height: 600px;
 }
 @media screen and (max-width: 500px) {
     .top {
